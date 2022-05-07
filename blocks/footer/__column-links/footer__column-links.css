@@ -1,21 +1,13 @@
-.footer__column-links {
+.footer__links-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  list-style-type: none;
-  padding: 0 0 1.5rem;
 }
 
-@media screen and (max-width: 767px) {
-  .footer__column-links {
-    padding: 0 0 3rem;
-    display: grid;
-    gap: 2rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .footer__column-links {
-    padding: 0 0 3rem;
-    display: grid;
-    gap: 2rem;
+@media all and (max-width: 650px) {
+  .footer__links-list {
+    flex-direction: column;
+    margin: 0 0 3rem 0;
   }
 }
