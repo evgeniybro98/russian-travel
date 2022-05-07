@@ -1,0 +1,21 @@
+.place__row {
+  width: 984px;
+  margin: 0 0 3rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.place__row:nth-child(2){
+  align-items: flex-start;
+  margin: 0;
+}
+
+@media all and (max-width: 640px) {
+  .place__row {
+    margin: 0;
+  }
+
+  .place__row:nth-child(2){
+    flex-direction: column;
+  }
+}

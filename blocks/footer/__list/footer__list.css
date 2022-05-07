@@ -1,0 +1,13 @@
+.footer__list {
+  margin: 0 1.125rem 0 0;
+}
+
+@media all and (max-width: 650px) {
+  .footer__list {
+    margin: 0 0 2rem 0;
+  }
+
+  .footer__list:last-child {
+    margin: 0;
+  }
+}

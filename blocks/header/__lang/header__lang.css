@@ -4,6 +4,7 @@
   font-weight: normal;
   line-height: 1.75rem;
   text-decoration: none;
+  text-align: right;
   opacity: 1;
 }
 
@@ -12,7 +13,7 @@
   transition: all linear 0.3s;
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 425px) {
   .header__lang {
     font-size: 1.125rem;
     line-height: 1.25rem;
