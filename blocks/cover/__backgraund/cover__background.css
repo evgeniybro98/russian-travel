@@ -1,5 +1,6 @@
 .cover__background {
   max-width: 1184px;
+  margin: 0 auto;
   background-image: url(../../../image/cover/__background.png);
   background-position: center;
   display: flex;
@@ -18,8 +19,20 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .cover__background{
     max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__background{
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__background{
+    max-width: 320px;
   }
 }
