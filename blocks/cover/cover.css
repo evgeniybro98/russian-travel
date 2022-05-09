@@ -1,31 +1,16 @@
 .cover {
-  display: flex;
-  width: calc(100% - 6rem);
-  min-height: 740px;
-  background-image: url(../../image/cover/__background.png);
-  background-position: center;
-  position: relative;
-  margin: 0 0 5.75rem;
-  background-size: cover;
-}
-
-@media all and (max-width: 1024px) {
-  .cover {
-    width: 100%;
-    min-height: 640px;
-  }   
-}
-
-@media all and (max-width: 768px) {
-  .cover {
-    min-height: 480px;
-    margin: 0 0 5.5rem;
-  }
+  max-width: 100%;
+  margin-bottom: 5.75rem;
 }
 
 @media all and (max-width: 425px) {
   .cover {
-    min-height: 200px;
-    margin: 0 0 4rem;
+    margin-bottom: 5.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-bottom: 4rem;
   }
 }

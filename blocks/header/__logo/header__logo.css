@@ -4,7 +4,7 @@
   background-image: url(../../../image/header/__logo.svg);
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .header__logo {
     width: 142px;
     height: 42px;

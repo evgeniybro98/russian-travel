@@ -1,26 +1,29 @@
 .places {
-  display: flex;
-  flex-direction: column;
-  width: 76.875%;
-  margin: 0 0 5.75rem;
+  max-width: 100%;
+  margin-bottom: 5.75rem;
+  padding: 0 100px 0;
+  display: grid;
+  gap: 5rem 0;
 }
 
 @media all and (max-width: 1024px) {
   .places {
-    width: 90%;
-  }  
-}
-
-@media all and (max-width: 768px) {
-  .places {
-    width: 93.75%;
-    margin: 0 0 5.5rem;
+    padding: 0 48px;
   }
 }
 
 @media all and (max-width: 640px) {
   .places {
-    width: 100%;
-    margin: 0 0 4rem;
+    gap: 4.5rem 0;
+    padding: 0 24px;
+    margin-bottom: 5.625rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    gap: 3.125rem 0;
+    padding: 0;
+    margin-bottom: 4.125rem;
   }
 }

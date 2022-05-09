@@ -1,9 +1,4 @@
 .place__paragraphs {
-  width: auto;
-}
-
-@media all and (max-width: 640px) {
-  .place__paragraphs {
-    margin: 0 1rem 0 1rem;
-  }
+  display: flex;
+  flex-direction: column;
 }

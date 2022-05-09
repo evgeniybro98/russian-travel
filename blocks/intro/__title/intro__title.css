@@ -6,13 +6,7 @@
   line-height: 3.625rem;
 }
 
-@media all and (max-width: 768px) {
-  .intro__title {
-    max-width: auto;
-  }
-}
-
-@media all and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .intro__title {
     font-size: 2rem;
     line-height: 1.09;
