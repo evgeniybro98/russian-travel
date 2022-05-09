@@ -1,14 +1,9 @@
 .place__website {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-content: flex-start;
+  width: auto;
 }
 
 @media screen and (max-width: 768px) {
   .place__website {
-    margin: 0 1rem;
+    display: none;
   }
 }

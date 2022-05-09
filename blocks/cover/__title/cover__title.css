@@ -4,8 +4,13 @@
   margin: auto auto 32px;
   font-size: 4.5rem;
   font-weight: 900;
+  font-size: 4.5rem;
   line-height: 4.75rem;
+  width: 560px;
+  box-sizing: border-box;
+  padding: 0 0.375rem;
   text-align: center;
+  position: relative;
   z-index: 2;
 }
 

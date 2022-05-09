@@ -5,6 +5,9 @@
   font-family: 'Inter', Arial, sans-serif;
   text-rendering: optimizeLegibility;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;

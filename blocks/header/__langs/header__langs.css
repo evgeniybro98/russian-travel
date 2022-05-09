@@ -1,9 +1,6 @@
 .header__langs {
-  display: grid;
-  grid-template-columns: repeat(2, min-content);
-  align-items: center;
-  gap: 1.125rem;
-  list-style-type: none;
-  margin: 0;
+  display: flex;
+  list-style: none;
   padding: 0;
+  margin: 0;
 }
