@@ -1,7 +1,7 @@
 .cover__title {
   max-width: 560px;
   width: 100%;
-  margin: 15.3125rem 19.5rem 2rem 19.5rem;
+  margin: auto auto 32px;
   font-size: 4.5rem;
   font-weight: 900;
   line-height: 4.75rem;
@@ -9,23 +9,11 @@
   z-index: 2;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__title {
-    margin: 12.1875rem 14.5rem 2rem 14.5rem;
-  }
-}
-
 @media screen and (max-width: 768px) {
-  .cover__title{
-    margin: 7.1875rem 6.5rem 2rem 6.5rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
   .cover__title {
-    max-width: 288px;
-    margin: 2.0625rem 1rem 1rem 1rem;
+    max-width: 250px;
     font-size: 2rem;
     line-height: 2.1875rem;
+    margin: auto auto 16px;
   }
 }

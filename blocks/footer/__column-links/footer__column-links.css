@@ -2,10 +2,10 @@
   display: flex;
   list-style-type: none;
   padding: 0;
-  margin: 0 0 1.5rem;
+  margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .footer__column-links {
     margin: 0 0 3rem;
     display: grid;

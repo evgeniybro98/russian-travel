@@ -1,27 +1,25 @@
 .header {
-  max-width: 1184px;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 auto 3.5rem;
-  padding: 1.75rem 3rem 0;
+  padding: 28px 0 56px;
+}
+
+@media screen and (max-width: 1280px) {
+  .header {
+    padding: 28px 48px 48px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    margin: 0 0 3rem;
+    padding: 28px 24px 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    padding: 1.75rem 1.5rem 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .header {
-    padding: 1rem 1rem 0;
-    max-width: 288px;
+    padding: 16px 16px 48px;
   }
 }
