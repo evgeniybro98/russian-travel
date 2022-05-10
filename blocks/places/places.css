@@ -6,21 +6,23 @@
   gap: 5rem 0;
 }
 
-@media all and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .places {
     padding: 0 48px;
+    gap: 5.2rem 0;
+    margin-bottom: 6.1rem;
   }
 }
 
-@media all and (max-width: 640px) {
+@media screen and (max-width: 1023px) {
   .places {
-    gap: 4.5rem 0;
+    gap: 3.75rem 0;
     padding: 0 24px;
     margin-bottom: 5.625rem;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .places {
     gap: 3.125rem 0;
     padding: 0;

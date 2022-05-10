@@ -4,20 +4,20 @@
   padding: 0 100px 0;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .intro {
     padding: 0 48px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .intro {
     margin-bottom: 5.5rem;
     padding: 0 24px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro {
     margin-bottom: 4rem;
     padding: 0 16px;
